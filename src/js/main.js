@@ -21,9 +21,11 @@ btn.addEventListener("click", () => {
                 loc.style.display = 'none'
                 locationDeg.style.display = 'none'
                 kmh.style.display = 'none'
+                locationSSS.style.display = 'none'
             } else {
                 console.log(weather);
                 loc.style.display = 'block'
+                locationSSS.style.display = 'block'
                 locationDeg.style.display = 'block'
                 kmh.style.display = 'block'
                 kmh.style.display = 'flex'
