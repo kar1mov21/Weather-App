@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <script type="module" crossorigin src="/src/js/main.js"></script>
+  <link rel="stylesheet" href="/src/sass/style.css">
+</head>
+
+<body id="white">
+  <div id="container">
+    <nav class="nav">
+      <div class="navbar container">
+        <ul>
+          <li>
+            <h1 id="text-white">Weather-Map</h1>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="form">
+      <div>
+        <input type="text" class="input" placeholder="country">
+        <button class="btn" id="text-white">find</button>
+      </div>
+      <ul class="result-ul">
+        <li><span><p class="location-deg form-white-text" id="text-white"></p></span></li>
+        <li class="form-second-li"><span class="location form-white-text" id="text-white"></span><p class="location-sss"></p></li>
+        <li><span class="weather form-white-text" id="text-white"></span></li>
+      </ul>
+      <div class="error-div">
+        <ul class="error-ul">
+          <li><img src="/assets/error-2b224dcd.gif" alt=""></li>
+          <li>
+            <p id="text-white">country not found</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+</body>
+
+</html>
